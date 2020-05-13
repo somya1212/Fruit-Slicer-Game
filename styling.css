@@ -1,0 +1,140 @@
+html{
+    background: linear-gradient(white,gray);
+    background-repeat: no-repeat;
+
+}
+#container{
+    height: 520px;
+    width: 800px;
+       background: linear-gradient(aqua,blueviolet);
+    margin: 15px auto;
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 4px black;
+    border: 2px solid black;
+    position: relative;
+}
+#score{
+    background-color: cornsilk;
+    color: darkgreen;
+    padding: 10px;
+    position:absolute;
+    left:650px;
+    box-shadow: 0px 4px 4px brown;
+    font-family: monospace;
+    font-size: 18px;
+    font-weight: bold;
+}
+#correct{
+    position:absolute;
+    left:260px;
+    background-color: chartreuse;
+    color: darkolivegreen;
+    padding: 11px;
+    display: none;
+}
+#wrong{
+    position:absolute;
+    left:250px;
+    background-color: red;
+    color: white;
+    padding: 11px;
+    display:none;
+}
+#fruitcontainer{
+    height: 385px;
+    background-color: ghostwhite;
+    width: 750px;
+    margin-top:  50px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid blueviolet;
+    box-shadow: 0px 2px blueviolet;
+    font-size: 90px;
+    text-align: center;
+    font-family: cursive;
+    position: relative;
+    overflow: hidden;
+}
+#instruction{
+    height: 30px;
+    background-color: lightpink;
+    width: 400px;
+    
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid pink ;
+    box-shadow: 0px 2px pink;
+    font-size: 22px;
+    text-align: center;
+    font-family:times new roman;
+    line-height: 35px;
+}
+
+
+#start:hover{
+    background-color: lightpink;
+    color: black;
+    box-shadow: 0px 4px cyan;
+    
+}
+#start:active{
+     box-shadow: 0px 0px cyan;
+    top: 4px;
+}
+
+
+#start{
+    height: 30px;
+    background-color: burlywood;
+    width: 100px;
+    font-size: 20px;
+    text-align: center;
+    box-shadow: 0px 2px orange;
+    border-radius: 4px;
+    margin-left: 350px;
+    position: relative;
+    line-height: 0px 4px;
+    transition: all 0.5s;
+    cursor: pointer;
+    
+    
+}
+#trialsLefts{
+    float: right;
+    background-color:greenyellow;
+    height:25px;
+    width: 100px;
+    margin-bottom: 40px;
+    border-radius: 4px;
+    padding: 10px;
+    position: absolute;
+    display: none;
+    
+}
+#gameover{
+    height: 250px;
+    width: 500px;
+    background: linear-gradient(yellow,orange);
+    font-size:50px;
+    text-align: center;
+    text-transform: uppercase;
+    position:absolute;
+    top:40px;
+    left:125px;
+    z-index:2;
+    display: none;
+    
+    
+}
+.life{
+    height:28px;
+    width : 28px;
+    margin: 0 2px;
+}
+.fruit{
+    display: none;
+    position: absolute;
+}
